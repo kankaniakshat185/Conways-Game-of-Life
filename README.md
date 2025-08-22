@@ -29,3 +29,16 @@ It provides an interactive grid where you can toggle cells, generate random patt
    ```bash
    git clone https://github.com/your-username/conways-game-of-life.git
    cd conways-game-of-life
+2. Create and activate a virtual environment (recommended):
+   ```bash
+    python3 -m venv venv
+   source venv/bin/activate   # Mac/Linux
+   venv\Scripts\activate      # Windows
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+4. Running the game:
+   ```bash
+   python main.py
+
+
